@@ -24,15 +24,15 @@ public class Quiz3 {
         //Make Robot 
         Robot karel = new Robot(kw, 1, 1, Direction.EAST, 20);
 
-        for (int Loop = 4; Loop > 0; Loop--) {
+        for (int Loop = 4; Loop > 0; Loop--) {// Loop the Loops
 
-            for (int plantSeed = 5; plantSeed > 0; plantSeed--) {
+            for (int plantSeed = 5; plantSeed > 0; plantSeed--) {//Karel Places "Seeds"
                 karel.putThing();
                 karel.move();
             }
             karel.turnLeft();
             karel.turnLeft();
-            for (int Return = 5; Return > 0; Return--) {
+            for (int Return = 5; Return > 0; Return--) {// Karel returns, then move to next line
                 karel.move();
                 if (karel.getAvenue() == 1) {
                     karel.turnLeft();
