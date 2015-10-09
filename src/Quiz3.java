@@ -42,8 +42,8 @@ public class Quiz3 {
             for (int back = 5; back > 0; back--) {
                 lali.move();
                 if (lali.getAvenue() == 1) {
-                    //robot places himself ,so that he can start the next row 
-                    //of seeds
+            //robot places himself ,so that he can start the next row of seeds
+                    
                     lali.turnLeft();
                     lali.move();
                     lali.turnLeft();
