@@ -21,17 +21,15 @@ public class Quiz3 {
         // TODO code application logic here
         City kw = new City();
         Robot karel = new Robot(kw,1,1, Direction.EAST,20);
-        while(true){
-         
-        for(int loops = 0; loops <5; loops++){ 
-            if(karel.countThingsInBackpack() == 0){
-            break;}
+        
+         // This loops means every coloumn he does it adds 1
+        for(int loops = 0; loops <4; loops++){
         for (int seeds = 0; seeds < 5; seeds++){
             karel.putThing();
             karel.move();
       
              
-         
+         // Every time he's facing EAST, and is done a column he moves to 2nd one
             } if(karel.getDirection() == Direction.EAST){
                 karel.turnLeft();
                 karel.turnLeft();
@@ -41,7 +39,7 @@ public class Quiz3 {
                 karel.turnLeft();
                 karel.turnLeft();
                 karel.move();
-            
+            // Mr. Lamont didn't mention that it was an algorithm :) thus when he planted first 2 rows he turns left 
         }if(loops == 1){
             karel.turnLeft();
             karel.move();
@@ -59,7 +57,7 @@ public class Quiz3 {
          }
              
                  
-             }
+             
 
 
 
