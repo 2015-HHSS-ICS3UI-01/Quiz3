@@ -23,7 +23,7 @@ public class Quiz3 {
         // make robot 
         Robot lali = new Robot(kw, 1, 1, Direction.EAST, 20);
 
-        //repeat whole loop
+        //make robot place 4 rows of seeds
 
 
         for (int loop = 4; loop > 0; loop--) {
