@@ -71,6 +71,6 @@ public class Quiz3 {
             karel.move();
             karel.turnLeft();
             
-            }
+            } 
     
 }
