@@ -41,6 +41,7 @@ public class Quiz3 {
                 turn = turn + 1;
                 karel.move();
             }
+            
             //start new row
             karel.turnLeft();
             karel.move();
