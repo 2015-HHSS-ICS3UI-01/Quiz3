@@ -12,14 +12,14 @@ import becker.robots.Robot;
  *
  * @author iorgs3184
  */
-public class Quiz3 {
+public class NewMain {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
-        //City for Robot to live in
+        // TODO code application logic here
+//City for Robot to live in
         City kw = new City();
 
         //Robot to live in City
