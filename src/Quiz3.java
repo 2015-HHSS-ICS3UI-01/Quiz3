@@ -24,11 +24,7 @@ public class Quiz3 {
         Robot karel = new Robot(kw, 1, 1, Direction.EAST, 20);
 
         //plant seeds
-
-
-
-
-
+        
         for (int row = 0; row < 4; row = row + 1) {
             int move = 0;
             while (move < 5) {
@@ -36,6 +32,7 @@ public class Quiz3 {
                 karel.move();
                 move = move + 1;
             }
+            //turn around
             karel.turnLeft();
             karel.turnLeft();
             int turn = 0;
@@ -44,6 +41,7 @@ public class Quiz3 {
                 turn = turn + 1;
                 karel.move();
             }
+            //start new row
             karel.turnLeft();
             karel.move();
             karel.turnLeft();
